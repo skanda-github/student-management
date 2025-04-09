@@ -1,0 +1,13 @@
+### Get all students
+GET http://localhost:8080/students
+Accept: application/json
+
+### Create a new student
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+  "name": "Skanda",
+  "email": "skanda@example.com",
+  "age": 25
+}
